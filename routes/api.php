@@ -17,3 +17,8 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
+Route::get('/people', [CRRUD_Controller::class, 'index']);
+Route::get('/people/{id}', [CRRUD_Controller::class, 'show']);
+Route::get('/people', [CRRUD_Controller::class, 'store']);
+Route::get('/people/{id}', [CRRUD_Controller::class, 'update']);
+Route::get('/people/{id}', [CRRUD_Controller::class, 'delete']);
