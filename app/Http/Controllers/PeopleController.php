@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\people;
+use App\Models\People;
 use App\Http\Requests\StorepeopleRequest;
 use App\Http\Requests\UpdatepeopleRequest;
 use Illuminate\Http\JsonResponse;

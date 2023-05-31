@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\CRRUD_Controller;  //for api
+use App\Http\Controllers\PeopleController;  //for api
  
 
 /*
@@ -19,4 +19,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::resource('companies', CRRUD_Controller::class);
+Route::resource('companies', PeopleController::class);
