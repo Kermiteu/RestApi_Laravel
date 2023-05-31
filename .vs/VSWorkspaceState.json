@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\app",
+    "\\app\\Http",
+    "\\app\\Http\\Controllers",
+    "\\database",
+    "\\database\\migrations"
+  ],
+  "SelectedNode": "\\database\\migrations\\2023_05_31_105206_create_todos_table.php",
+  "PreviewInSolutionExplorer": false
+}
