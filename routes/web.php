@@ -19,5 +19,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::resource('companies', PeopleController::class);
+Route::resource('people', PeopleController::class);
 Route::get('/people', 'PeopleController@index');
