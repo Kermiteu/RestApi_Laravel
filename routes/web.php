@@ -20,3 +20,4 @@ Route::get('/', function () {
 });
 
 Route::resource('companies', PeopleController::class);
+Route::get('/people', 'PeopleController@index');
